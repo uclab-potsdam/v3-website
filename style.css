@@ -115,6 +115,19 @@ h3 {
   font-weight: 500;
   line-height: 0.5;
 }
+#regular {
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 0.5;
+  font-weight: 400;
+  }
+
+h4 {
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 0.5;
+  margin-top: 1em;
+}
 .bold {
   font-weight: 500;
 }
@@ -125,7 +138,7 @@ h3 {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
     max-width: 100%;
-    width: 850px;
+    width: 950px;
     margin: auto;
 }
 .container-image {
@@ -161,6 +174,10 @@ h3 {
   max-width: 95%;
   max-height: 100px;
   padding-top: var(--space-m);
+}
+#funding {
+  max-width: 45%;
+  padding-right: var(--space-m);
 }
 
 footer{
@@ -324,4 +341,8 @@ ol {
     margin: auto;
     width: 70%;
 }
+  #funding {
+    max-width: 85%;
+    padding-bottom: var(--space-m);
+  }
 }
