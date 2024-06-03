@@ -156,7 +156,6 @@ h4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  max-width: 100%;
   width: 850px;
   margin: auto;
 }
@@ -347,11 +346,13 @@ ol {
     padding: var(--space-s) var(--space-m);
   }
 
-  #mobile-image {
-    padding: 0 var(--space-m);
-    margin: auto;
-    width: 70%;
-}
+  #activity-image {
+    width: 100%;
+    height: auto;
+    min-width: auto;
+    min-height: auto;
+    padding-top: var(--space-m);
+  }
   #funding {
     max-width: 85%;
     padding-bottom: var(--space-m);
