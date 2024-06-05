@@ -102,12 +102,20 @@ a:active {
   min-height: auto;
   padding: var(--space-m) 0;
 }
+.imgActivities {
+  height: 100%;
+  width: 100%;
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
+  min-height: 40vh;
+  max-height: 50vh;}
+  
 #activity-image {
   width: 100%;
   height: 100%;
-  min-width: auto;
-  min-height: auto;
-  padding: var(--space-m) 0;
+  max-width: 100%;
+  max-height: 30%;
+  padding-top: 75;
   object-fit: cover;
   overflow: hidden;
 }
@@ -131,14 +139,15 @@ h2  {
 h3 {
   font-size: 1.3em;
   font-weight: 600;
-  line-height: 0.5;
+  margin:   var(--space-m) 0;
+  ;
 }
 h4 {
   font-size: 1.3em;
   font-weight: 500;
   font-weight: 400;
+  margin:   var(--space-m) 0;
   }
-}
 .bold {
   font-weight: 500;
 }
@@ -151,16 +160,8 @@ h4 {
     max-width: 100%;
     width: 1000px;
     margin: auto;
-}
-.container-image {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  width: 850px;
-  margin: auto;
-}
-.block {
-  padding: var(--space-m) var(--space-m);
+    column-gap: 20px;
+    row-gap: 20px;
 }
 .start {
   padding-top: var(--space-s)
@@ -345,13 +346,18 @@ ol {
   .block {
     padding: var(--space-s) var(--space-m);
   }
+  .imgActivities {
+    height: 50vh;
+    max-height: 300px;
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
 
   #activity-image {
     width: 100%;
     height: auto;
     min-width: auto;
     min-height: auto;
-    padding-top: var(--space-m);
+    padding: 0;
   }
   #funding {
     max-width: 85%;
