@@ -103,6 +103,20 @@ a:active {
   min-height: auto;
   padding: var(--space-m) 0;
 }
+#video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  padding: var(--space-m) 0;
+}
+#activities-image{
+  width: 100%;
+  height: auto;
+  min-width: auto;
+  min-height: auto;
+  padding: var(--space-xs) 0;
+}
 .imgActivities {
   height: 100%;
   width: 100%;
@@ -142,7 +156,7 @@ h2  {
 h3 {
   font-size: 1.3em;
   font-weight: 600;
-  margin:   var(--space-m) 0;
+  margin:   var(--space-s) 0;
   ;
 }
 h4 {
@@ -203,9 +217,11 @@ h4 {
   //background-color: #99D7B5;
   text-decoration: none;
 }
-
-#margin {
-  margin-top: 2.2em;
+.margin-buttons {
+margin-top: 0.4em;
+}
+#margin-button {
+  margin-top: 0.8em;
 }
 #funding {
   max-width: 45%;
@@ -343,8 +359,12 @@ ol {
     background-size: auto 100%;
     background-position-x: -50px;
   }
-  #margin {
-    margin-top: 1.9em;
+  .margin-buttons {
+  margin-top: 0;
+  }
+  #margin-button {
+    margin-top: 0.7em;
+    margin-bottom: 0.2em;
   }
   .header {
     grid-column: 1;
@@ -360,7 +380,7 @@ ol {
   }
   h3 {
     margin-bottom: var(--space-xs);
-    margin-top: var(--space-m);
+    margin-top: var(--space-l);
   }
   h4 {
     margin-bottom: var(--space-s);
@@ -377,6 +397,9 @@ ol {
     padding-left: var(--space-m);
     padding-right: var(--space-m);
     padding-top: 0;
+  }
+  #activities-p {
+    margin-bottom: 0;
   }
   .start {
     padding-top: var(--space-m)

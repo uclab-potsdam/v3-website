@@ -53,8 +53,10 @@
     <div class="container">
       <div class="block">
         <h1>Amazonia Future Lab</h1>
-        <a href="https://amazoniafuturelab.fh-potsdam.de/xinguentangled" class="button" target="_blank">Visit Xingu Entangled!</a>
-        <p id="margin"><a href="https://github.com/uclab-potsdam/wanderer" class="button" target="_blank">Reuse Wanderer software!</a></p>
+        <p class="margin-buttons">
+        <a href="https://amazoniafuturelab.fh-potsdam.de/xinguentangled" class="button" target="_blank">Visit Xingu Entangled!</a><br>
+        <a id="margin-button" href="https://github.com/uclab-potsdam/wanderer" class="button" target="_blank">Reuse Wanderer software!</a>
+      </p>
       </div>
       <div class="block">
         <p class="start">The indigenous communities of the Upper Xingu south of the Amazon river recognise objects, places, plants, myths, rites, and spiritual owners as intertwined entities that form entangled lifeworlds. However western museal practices centre on artefacts and divide them along disciplinary boundaries into separate institutions such as ethnological museums, botanical collections, and libraries. The Amazonia Future Lab develops new formats and tools to recontextualise Xingu artefacts into narratives that surface their complex interrelationships while adequately representing indigenous perspectives.
@@ -70,10 +72,9 @@
   -->
     <div class="container">
       <div id="one" class="block">
-        <h3 class="navSection">Results</h3>
+        <h3 class="navSection">Wanderer</h3>
       </div>
       <div class="block">
-        <h4>Wanderer</h4>
       <p class="navSection"> The Wanderer is a framework that devises an interface for data production and linking data with film media as well as for data presentation with a strong focus on its application in exhibition settings.</p>
       <img id="grid-image" src="assets/img/wanderer.png" alt="wanderer" width="450">
       <p>In the framework's production mode, data can be visualised in a network of relations by adding, connecting and arranging entities on a canvas. In a second step, these flowcharts can be animated in coordination with videos, by zooming and panning and by highlighting or blurring to focus on selected elements. A flexible exhibition setup combining linear video and interactive visualisation allows to exhibit the data and invite visitors to explore the possibilities of user-guided navigation along data relations and video clips.
@@ -81,13 +82,16 @@
         collections, science communication and beyond. The Wanderer is freely available as <a href="https://github.com/uclab-potsdam/wanderer" target="_blank">open source software on GitHub</a>.
       </p>
     </div>
+  </div>
+  <div class="container">
+    <div id="two" class="block">
+      <h3 >Xingu Entangled</h3>
+    </div>
     <div class="block right">
-    <h4 >Xingu Entangled</h4>
-
     <p><a href="https://amazoniafuturelab.fh-potsdam.de/xinguentangled" target="_blank">Xingu Entangled</a> is the first case study of the Amazonia Future Lab project and
       was implemented with the Wanderer. The interactive video exhibit documents material practices and knowledge from the indigenous communities of the Upper Xingu.
     </p>
-    <video id="grid-image" controls>
+    <video id="video" controls>
       <source src="assets/img/XinguEntangled.mp4" type="video/mp4">
       </video>
     <p> Xingu Entangled underscores the rich interconnectedness of objects, places, events, organisms, and spiritual actors and weaves them into non-linear narratives and data structures. By emphasising boundary objects over physical artefacts, it bridges disciplinary domains and effectively communicates manifold perspectives. The interactive capacity of the two-channel installation allows visitors to freely explore the graphs and videos, while also offering situated storytelling with voices and perspectives from the Xingu community.
@@ -95,7 +99,7 @@
   </div>
     </div>
     <div class="container">
-    <div id="two" class="block">
+    <div id="three" class="block">
       <h3 class="navSection">Approach</h3>
     </div>
     <div class="block">
@@ -105,7 +109,7 @@
     --></div>
     </div>
     <div class="container">
-      <div id="three" class="block">
+      <div id="four" class="block">
         <h3 class="navSection">Background</h3>
       </div>
       <div class="block">
@@ -117,13 +121,12 @@
         <p>The lessons learned, along with a broad network of institutional and local partners, represent a unique opportunity to build up the collaborative processes that are fundamental to this research—for instance, through the long cooperation history of the Museu Nacional with indigenous researchers in Brazil. By moving away from strictly disciplinary, museum-centered views of biocultural artifacts, we create better conditions to develop tools that can promote a holistic approach to museum collections. Our goal is hence to extend and intensify the work initiated with “Sharing Knowledge”, as well as to tackle central challenges of multiperspectivity and decolonization of knowledge production.
         </p>
       </div>
-      <div id="four" class="block">
+      <div id="five" class="block">
         <h3 class="navSection">Activities</h3>
       </div>
       <div></div>
       <div class="block">
-      <div class="imgActivities" style="background-image: url('assets/img/XE-republica.png');">
-      </div>
+      <p id="activities-p"> <img id="activities-image" src="assets/img/XE-republica.png" alt="republica 2024" >©Fidel Thomet</p>
       </div>
       <div class="block" id="activities">
         <p>Exhibition | 27.05 – 29.05.2024 | Berlin</p>
@@ -135,8 +138,7 @@
           </p>
       </div>
       <div class="block">
-      <div class="imgActivities" style="background-image: url('assets/img/XE-existenNum.jpg');">
-      </div>
+      <p id="activities-p"> <img id="activities-image" src="assets/img/XE-existenNum.jpg" alt="existencia numerica exhibition" >©Fidel Thomet</p>
       </div>
       <div class="block" id="activities">
         <p>Exhibition | 27.03 – 23.06.2024 | Rio de Janeiro</p>
@@ -146,9 +148,8 @@
           Curated by Barbara Castro, Doris Kosminsky and Luiz Ludwig, the exhibition dwells upon the complexity of data visualization and its applications in the world of visual arts.
         </p>
       </div>
-            <div class="block">
-      <div class="imgActivities" style="background-image: url('assets/img/infoPlus.jpeg');">
-     </div>
+      <div class="block">
+      <p id="activities-p"> <img id="activities-image" src="assets/img/infoPlus.jpeg" alt="Info+ 2023" >©Fidel Thomet</p>
     </div>
       <div class="block" id="activities">
         <p>Exhibition | 22.11 – 24.11.2023 | Edinburgh</p>
@@ -158,8 +159,7 @@
         </p>
       </div>
       <div class="block">
-        <div class="imgActivities" style="background-image: url('assets/img/workshop-macucu.png');">
-        </div>
+        <p id="activities-p"> <img id="activities-image" src="assets/img/workshop-macucu.png" alt="Workshop Macucu" >©Andrea Scholz</p>
         </div>
       <div class="block" id="activities">
         <p>Workshop | November 2023 | Macucu (Vaupés/ Colombia)</p>
@@ -172,11 +172,9 @@
           During the workshop week, the participants experimented with various artistic techniques of representation and
           attempts at abstraction.
         </p>
-        <p>Img: ©Andrea Scholz</p>
       </div>
       <div class="block">
-        <div class="imgActivities" style="background-image: url('assets/img/workshop-ipatse.png');">
-        </div>
+        <p id="activities-p"> <img id="activities-image" src="assets/img/workshop-ipatse.png" alt="Workshop Ipatse 2023" >©Carlos Fausto</p>
      </div>
       <div class="block" id="activities">
         <p>Workshop | July 2023 | Ipatse (Xingu park, Mato Grosso/ Brazil)
@@ -189,11 +187,9 @@
           As the end of the workshop coincided with the start of the kuarup ritual to commemorate the deceased,
           the new gimi were used straight away.
         </p>
-        <p>Img: ©Carlos Fausto</p>
       </div>
       <div class="block">
-        <div class="imgActivities" style="background-image: url('assets/img/XinguWorkshop1.png');">
-        </div>
+        <p id="activities-p"> <img id="activities-image" src="assets/img/XinguWorkshop1.png" alt="Workshop Ipatse 2022" >©Carlos Fausto</p>
      </div>
       <div class="block" id="activities">
         <p>Workshop | 24.08 – 02.09.2022 | Ipatse (Xingu park, Mato Grosso/ Brazil)
@@ -205,11 +201,9 @@
           men worked on fish traps made from the Ambé liana. The activities were affected by severe forest
           fires in the region.
         </p>
-        <p>Img: ©Carlos Fausto</p>
       </div>
       <div class="block">
-        <div class="imgActivities" style="background-image: url('assets/img/RepublicaWorkshop.jpg');">
-        </div>
+        <p id="activities-p"> <img id="activities-image" src="assets/img/RepublicaWorkshop.jpg" alt="republica Workshop" >©Fidel Thomet</p>
      </div>
       <div class="block">
         <p>Workshop | 10.06.2022 | Berlin
@@ -230,7 +224,7 @@
         <p>Andrea Scholz Thiago da Costa Oliveira, Marian Dörk — Digitalisierung ethnologischer Sammlungen: Perspektiven aus Theorie und Praxis, 2021
         </p>
       </div>
-      <div id="five" class="block">
+      <div id="six" class="block">
         <h3 class="navSection">Partners</h3>
       </div>
       <div class="block left">
